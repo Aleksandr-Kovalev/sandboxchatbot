@@ -21,7 +21,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/{userId}")
+    @GetMapping("/id/{userId}")
     public ResponseEntity<Optional<User>> getUserById(@PathVariable ObjectId userId){
 
         Optional<User> user = userService.getUserById(userId);
@@ -31,4 +31,5 @@ public class UserController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
+
 }
