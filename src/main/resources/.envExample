@@ -1,0 +1,4 @@
+MONGO_DATABASE="chatbot-db"
+MONGO_USER="machinespirit"
+MONGO_PASSWORD="eiBxuBg3Y11dPzH8"
+MONGO_CLUSTER="palantir0.l59axlk.mongodb.net"
